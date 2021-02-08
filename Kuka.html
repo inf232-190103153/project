@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script type ="text/javascript" src="assets/css/projectKuka.js"></script>
+
+</head>
+
+<body>
+    
+
+	<header>
+        <div id="sidebar">
+            <div class="toggle-btn" onclick="openMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li>Menu</li>
+                <li>
+                    <a href="#">
+                        Home
+                    </a> 
+                </li>
+                <li>
+                    <a href="#">
+                        Volleyball
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Photo 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Video
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Characters
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        </div>
+        
+        <div class="scroll-down"></div>
+
+		<nav style="text-align: center;">
+		</nav>
+	</header>
+	<video controls=""></video>
+
+
+	<section class="hero">
+		<div class="background-image" style="background-image: url(assets/img/04da4a42a5ffca762e4a87dbad4765fc.png);"></div>
+		<h1>Anime Volleyball</h1  >
+	</section>
+    
+
+	   <section>
+        <div class="row founder">
+            <img src="assets/img/600x900.png" height="400"  >
+            <div class="column">
+                <h3>Волейбол</h3>
+                
+                <p> Один случайный матч зажёг в Сёе Хинате безумную любовь к волейболу. Хоть в его волейбольном клубе изначально не было даже участников, упорством и стараниями Сёё собравшаяся команда всё-таки прорвалась в свой первый и последний финальный матч в средней школе. Но там она была начисто разгромлена Тобио Кагэямой, известным как Король площадки. Поклявшись отомстить, Хината вступает в клуб волейбола в старшей школе Карасуно... и лицом к лицу сталкивается со своим ненавистным противником Кагэямой.
+                </p>
+            </div>
+        </div>
+    </section>
+
+        <section class="slide-section">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="r-btn"
+                id="r1" checked="checked">
+                <input type="radio" name="r-btn"
+                id="r2">
+                <input type="radio" name="r-btn"
+                id="r3">
+                <input type="radio" name="r-btn"
+                id="r4">
+                <input type="radio" name="r-btn"
+                id="r5">
+
+                <div class="slide first">
+                    <img src="assets/img/F7okEF.jpg">
+                </div>
+                <div class="slide">
+                    <img src="assets/img/wp1818260.jpg">
+                </div>
+                <div class="slide">
+                    <img src="assets/img/haikyuu-teams-wallpaper-download-here-download-this-hd-wallpaper-haikyuu-karasuno-volleyball-team.jpg">
+                </div>
+                <div class="slide">
+                    <img src="assets/img/wp1818270.jpg">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    
+                </div>
+                <div class="nav-manual">
+                    <label for="r1" class="manual-btn "></label>
+                    <label for="r2" class="manual-btn"></label>
+                    <label for="r3" class="manual-btn"></label>
+                    <label for="r4" class="manual-btn"></label>
+                    
+                </div>
+            </div>
+        </div>
+        <script>
+            var count = 1;
+            setInterval(function(){
+                document.getElementById('r' + count).checked = true;
+                count++;
+                if(count > 4)
+                    count = 1;
+            }, 5000);
+        </script>
+        <div class="video-container">
+            <video autoplay loop muted >
+                <source src="assets/img/Haikyuu!! AMV _ [The Phoenix] - Fall Out Boy.mp4"  type="video/mp4" >
+            </video>
+        </div>
+    </section>
+
+			
+
+
+	
+
+	<section class="contact">
+		<h3 class="title"></h3>	
+		<p>Если вы хотите посмотреть все серии полностью, то оставьте почту, мы вам напишем и добавим в группу ..</p>
+		<hr style="width: 200px;">
+
+		<form>
+			<input type="email" placeholder="Email">
+			<a href="#" class="btn">Send</a>
+		</form>
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-vk"></i></a></li>
+		</ul>
+
+	</footer>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A666f719fc11842ede751a577cd9cffc920454c1ef7daf431c92e2b3cb74d3a2f&amp;width=auto&amp;height=500&amp;lang=ru_UA&amp;scroll=true"></script>
+
+
+</body>
+
+</html>
