@@ -1,0 +1,4 @@
+echo
+<?php
+echo ' aiodb'
+?>
